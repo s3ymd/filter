@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jQuery</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>header1</h1>
+        <h2>header2</h2>
+        <h3>header3</h3>
+        <h4>header4</h4>
+        <h5>header5</h5>
+        <h6>header6</h6>
+        <div>div text</div>
+        
+        <script src="js/libs/jquery/jquery.min.js"></script>
+        <script>
+            $(function() {
+                // ヘッダー要素をすべて選択
+                $(':header').css('background-color', 'lightgreen');
+            });
+        </script>
+    </body>
+</html>
